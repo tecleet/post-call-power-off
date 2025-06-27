@@ -1,13 +1,5 @@
 {
-  "name": "Working Android Environment",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
-  "customizations": {
-    "vscode": {
-      "settings": {
-        "java.home": "/usr/lib/jvm/java-17-openjdk-amd64"
-      }
-    }
-  }
+  "name": "Diagnostic Test",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "echo 'It worked! The config was read.' > /workspaces/proof.txt"
 }
