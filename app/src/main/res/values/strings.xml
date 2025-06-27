@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Post Call Power Off</string>
+    <string name="app_title">Post-Call Power Off</string>
+    <string name="app_description">This app needs permission to read the phone state and draw over other apps. After a call ends, it will show a prompt to help you quickly power off your device.</string>
+    <string name="enable_permissions">Enable Permissions</string>
+    <string name="permissions_pending">Permissions are pending…</string>
+    <string name="permissions_granted">All permissions enabled! The app is active.</string>
+    <string name="permissions_enabled">Permissions Enabled</string>
+    <string name="phone_state_permission_needed">Phone State permission needed first.</string>
+    <string name="overlay_permission_needed">"Draw over other apps" permission needed.</string>
+    <string name="app_icon_description">App Icon</string>
+    <string name="call_ended_title">Call Ended</string>
+    <string name="power_off_prompt">Turn off your phone?</string>
+    <string name="power_off">Power Off</string>
+    <string name="cancel">Cancel</string>
+    <string name="alert_icon_description">Alert Icon</string>
+</resources>
